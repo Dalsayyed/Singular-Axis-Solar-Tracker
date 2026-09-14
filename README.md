@@ -1,4 +1,4 @@
-# Dual-Axis Solar Tracker: CAD, Simulation, & Embedded Control ☀️🔋
+# Single-Axis Solar Tracker: CAD, Simulation, & Embedded Control ☀️🔋
 
 ## 🔬 Project Overview
 This project presents the design, simulation, and implementation of an automated dual-axis solar tracking system. The goal of the system is to dynamically orient a photovoltaic panel toward the sun's highest intensity point using light-dependent resistors (LDRs) and servo motors, optimizing energy harvesting efficiency.
@@ -24,7 +24,7 @@ This project presents the design, simulation, and implementation of an automated
 - Analyzed theoretical efficiency curves comparing static panels against dynamic tracking systems.
 
 #### 3. Embedded Systems & Control (Arduino)
-- Implemented a closed-loop feedback control system utilizing differential voltage readouts from an array of 4 LDR sensors.
+- Implemented a closed-loop feedback control system utilizing differential voltage readouts from an array of 2 LDR sensors.
 - Programmed error-threshold filtering in C++ to minimize mechanical jitter and actuator wear from minor ambient light fluctuations.
 
 ---
